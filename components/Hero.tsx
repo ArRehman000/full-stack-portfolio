@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { motion, Variants } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
 
@@ -129,15 +130,22 @@ export default function Hero() {
             variants={fadeInUp}
             className="mt-12 flex flex-wrap gap-4"
           >
-            <button className="group flex items-center gap-2 rounded-xl bg-purple-600 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-purple-700 hover:shadow-lg hover:shadow-purple-600/20">
+            <Link 
+              href="/projects"
+              className="group flex items-center gap-2 rounded-xl bg-purple-600 px-6 py-3.5 text-sm font-semibold text-white transition-all hover:bg-purple-700 hover:shadow-lg hover:shadow-purple-600/20"
+            >
               View Projects
               <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
-            </button>
+            </Link>
             
-            <button className="flex items-center gap-2 rounded-xl border border-white/10 bg-transparent px-6 py-3.5 text-sm font-semibold text-zinc-400 transition-all hover:border-white/20 hover:text-white hover:bg-white/5">
+            <a 
+              href="/Abdur-FullStack-Resume.pdf" 
+              download="Abdur-FullStack-Resume.pdf"
+              className="flex items-center gap-2 rounded-xl border border-white/10 bg-transparent px-6 py-3.5 text-sm font-semibold text-zinc-400 transition-all hover:border-white/20 hover:text-white hover:bg-white/5"
+            >
               Download CV
               <Download size={18} />
-            </button>
+            </a>
           </motion.div>
         </div>
 
