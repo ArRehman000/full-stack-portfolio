@@ -6,8 +6,6 @@ import {
   Clock, 
   MapPin, 
   Mail, 
-  Linkedin, 
-  Github, 
   ExternalLink, 
   ArrowUpRight,
   Loader2,
