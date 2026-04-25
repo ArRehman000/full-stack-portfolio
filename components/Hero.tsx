@@ -19,7 +19,7 @@ const fadeInUp: Variants = {
 };
 
 const STATS = [
-  { value: "3+", label: "Years experience" },
+  { value: "2+", label: "Years experience" },
   { value: "8+", label: "Projects shipped" },
   { value: "3", label: "Companies" },
 ];
@@ -186,7 +186,7 @@ export default function Hero() {
             </div>
             <div>
               <p className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">Experience</p>
-              <p className="text-xs font-semibold text-white">3+ Years</p>
+              <p className="text-xs font-semibold text-white">2+ Years</p>
             </div>
           </motion.div>
         </motion.div>
