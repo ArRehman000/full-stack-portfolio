@@ -169,7 +169,7 @@ export default function AboutPage() {
 
             <div className="space-y-4 text-sm leading-relaxed text-zinc-500">
               <p>
-                I'm a Full Stack Developer with 3 years of professional
+                I'm a Full Stack Developer with 2 years of professional
                 experience turning ideas into production-ready web applications.
                 I've worked across startups and agencies, contributing to
                 everything from AI-powered platforms to Web3 dApps.
