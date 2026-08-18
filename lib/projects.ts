@@ -303,5 +303,38 @@ export const PROJECTS: Project[] = [
     ],
     challenges: "Building a complex permission system (RBAC) that could handle different access levels for HR, Managers, and Employees. We built a custom middleware layer that validates permissions for every API endpoint.",
     role: "Full Stack Engineer. Developed the core dashboard and the leave management module, ensuring a high-performance experience for over 100+ concurrent users."
+  },
+  {
+    id: 10,
+    title: "ODR Document Manager",
+    slug: "odr-document-manager",
+    description: "Enterprise Document Parser & RAG Pipeline for automated extraction and semantic search.",
+    longDescription: "ODR Document Manager is an enterprise-grade document ingestion and reasoning pipeline. It enables organizations to upload complex PDFs and Word documents, automatically extracting text and structured tables using advanced AI parsers. After an optional administrator review and editing phase, verified content is converted into vector embeddings and indexed in Pinecone/PostgreSQL, powering a semantically-aware chat interface for instant, grounded Q&A.",
+    category: "AI/LLM",
+    tags: ["React", "Next.js", "Node.js", "Express", "MongoDB", "OpenAI", "Pinecone", "RAG"],
+    highlightTags: ["Next.js", "OpenAI", "Pinecone", "RAG"],
+    coverGradient: "from-[#081f21] to-[#040f10]",
+    coverLabel: "ODR DOCS",
+    badgeLabel: "AI RAG",
+    badgeVariant: "ai",
+    featured: true,
+    images: [],
+    features: [
+      "AI-driven text and table parser for PDFs and Word documents",
+      "Administrative review dashboard to verify parsed text and data structure",
+      "Vector embedding generation pipeline powered by OpenAI/Mistral models",
+      "Pinecone and PostgreSQL (pgvector) vector database integration",
+      "Context-aware chat interface providing grounded user Q&A from files"
+    ],
+    techStack: [
+      { name: "React/Next.js" },
+      { name: "Material-UI" },
+      { name: "Node.js/Express" },
+      { name: "MongoDB" },
+      { name: "OpenAI/Mistral APIs" },
+      { name: "Pinecone/PostgreSQL (Vector Search)" }
+    ],
+    challenges: "Parsing multi-column documents and complex nested tables while maintaining textual layout was highly error-prone. We solved this by implementing hybrid recursive block parsing along with layout-aware semantic layout trees before generating chunks.",
+    role: "Lead Developer. Owned the end-to-end architecture, building the file ingestion pipelines, layout parsers, vector database indexing, and the UI with Material-UI."
   }
 ];

@@ -30,21 +30,22 @@ const EXPERIENCES: Experience[] = [
     isCurrent: true,
     logoVariant: "purple",
     bullets: [
-      "Built scalable web apps using Next.js, React, Node.js and Express — focused on performance and clean, modular architecture.",
-      "Designed RESTful APIs with auth, authorization and secure data handling for production environments.",
-      "Developed a full HRMS platform — attendance, leaves, tasks, meetings, projects, departments and notifications modules.",
-      "Led MongoDB schema design, indexing strategy and performance tuning across all collections.",
+      "Built full-stack features across frontend (Next.js/React) and backend (Node.js/Express) with MongoDB for production applications.",
+      "Developed an AI-powered RAG application for intelligent document search and Q&A, integrating vector-based retrieval with LLM responses.",
+      "Contributed to Petalnex HRMS, covering attendance, leave, task, and employee management modules.",
+      "Designed RESTful APIs and implemented authentication and secure data handling for enterprise workflows.",
     ],
     tags: [
       "Next.js",
       "Node.js",
-      "Express",
+      "Express.js",
       "MongoDB",
-      "HRMS",
+      "RAG",
+      "Pinecone",
       "REST API",
-      "JWT Auth",
+      "Authentication",
     ],
-    highlightTags: ["Next.js", "Node.js"],
+    highlightTags: ["Next.js", "RAG"],
   },
   {
     id: 2,
@@ -56,21 +57,22 @@ const EXPERIENCES: Experience[] = [
     isCurrent: false,
     logoVariant: "teal",
     bullets: [
-      "Developed scalable apps with React, Next.js, Node.js, Express and NestJS ensuring high performance and smooth UX.",
-      "Built Chrome extensions that enhanced browser productivity and boosted user engagement metrics.",
-      "Integrated LangChain.js AI capabilities into apps for natural language processing and intelligent automation workflows.",
-      "Built a fitness app backend with Node.js, Express, TypeScript and MongoDB — designed for future React Native mobile integration.",
+      "Integrated LangChain.js for AI-driven automation and natural language processing features.",
+      "Built a Chrome extension to enhance browser functionality and user productivity.",
+      "Developed a React Native mobile app with a Groq-model-powered backend for AI-driven features.",
+      "Built a fitness app backend with Node.js, Express.js, and TypeScript, including structured APIs and MongoDB optimization.",
     ],
     tags: [
-      "NestJS",
       "LangChain.js",
-      "React",
-      "Chrome Ext.",
+      "React Native",
+      "Groq API",
+      "Node.js",
+      "Express.js",
       "TypeScript",
+      "Chrome Extension APIs",
       "MongoDB",
-      "AI Integration",
     ],
-    highlightTags: ["NestJS", "LangChain.js"],
+    highlightTags: ["LangChain.js", "Groq API"],
   },
   {
     id: 3,
@@ -82,22 +84,22 @@ const EXPERIENCES: Experience[] = [
     isCurrent: false,
     logoVariant: "coral",
     bullets: [
-      "Built and maintained client web apps using React, Next.js, Node.js and Express across multiple simultaneous projects.",
-      "Developed and integrated Web3 features — wallet connect, Ethereum smart contracts and NFT minting for dApps.",
-      "Implemented server-side AI model request/response pipelines using Node.js for production applications.",
-      "Designed and managed both SQL and NoSQL database schemas and data storage solutions across all client projects.",
+      "Built web applications and APIs using React.js, Next.js, Node.js, and Express.",
+      "Designed SQL/NoSQL database schemas and handled AI model request processing for backend services.",
+      "Developed Web3 dApp features using Ethereum and smart contracts.",
     ],
     tags: [
-      "Web3.js",
-      "Ethereum",
-      "React",
+      "React.js",
       "Next.js",
       "Node.js",
+      "Express.js",
       "SQL",
+      "NoSQL",
+      "Ethereum",
       "Smart Contracts",
-      "Git",
+      "dApps",
     ],
-    highlightTags: ["Web3.js", "Ethereum"],
+    highlightTags: ["Ethereum", "Smart Contracts"],
   },
 ];
 
@@ -136,7 +138,7 @@ export default function ExperiencePage() {
             Work <span className="text-purple-400">Experience</span>
           </h2>
           <p className="mt-2 text-sm text-zinc-700">
-            2 years &middot; 3 companies &middot; full-stack all the way
+            3+ years &middot; 3 companies &middot; full-stack all the way
           </p>
         </header>
 

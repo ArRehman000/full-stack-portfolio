@@ -56,7 +56,7 @@ const staggerContainer = {
 
 const INFO_GRID = [
   { label: "Location", value: "Islamabad, PK", icon: MapPin },
-  { label: "Experience", value: "2+ Years", icon: Calendar },
+  { label: "Experience", value: "3+ Years", icon: Calendar },
   {
     label: "Availability",
     value: "Open to work",
@@ -69,35 +69,35 @@ const INFO_GRID = [
 const SKILL_CARDS = [
   {
     category: "Frontend",
-    tags: ["React", "Next.js", "Tailwind"],
+    tags: ["React.js", "Next.js", "React Native", "Redux", "MUI", "Responsive UI/UX"],
     icon: Terminal,
     iconBg: "bg-purple-500/15",
     iconColor: "text-purple-400",
   },
   {
     category: "Backend",
-    tags: ["Node.js", "Express", "NestJS"],
+    tags: ["Node.js", "Express.js", "Nest.js", "RESTful API", "Secure Auth/Data"],
     icon: Server,
     iconBg: "bg-teal-500/15",
     iconColor: "text-teal-400",
   },
   {
     category: "Databases",
-    tags: ["MongoDB", "SQL", "Firebase"],
+    tags: ["MongoDB", "Pinecone", "Firebase", "SQL"],
     icon: Database,
     iconBg: "bg-amber-500/15",
     iconColor: "text-amber-400",
   },
   {
     category: "Web3",
-    tags: ["Ethereum", "Web3.js", "NFT"],
+    tags: ["Ethereum", "Web3.js", "Smart Contracts", "dApps"],
     icon: Globe,
     iconBg: "bg-blue-500/15",
     iconColor: "text-blue-400",
   },
   {
     category: "AI / LLM",
-    tags: ["LangChain", "OpenAI", "RAG"],
+    tags: ["LangChain.js", "OpenAI API", "Groq API", "RAG", "Vector Search"],
     icon: Cpu,
     iconBg: "bg-coral-500/15",
     iconColor: "text-coral-400",
@@ -111,14 +111,14 @@ const SKILL_CARDS = [
   },
   {
     category: "Automation",
-    tags: ["n8n", "AI Chatbot"],
+    tags: ["n8n Workflow", "AI Chatbots", "CRM Sync"],
     icon: Zap,
     iconBg: "bg-green-500/15",
     iconColor: "text-green-400",
   },
   {
     category: "Chrome Ext.",
-    tags: ["Extensions", "JS"],
+    tags: ["Chrome APIs", "JavaScript", "Manifest V3"],
     icon: ChromeIcon,
     iconBg: "bg-zinc-500/15",
     iconColor: "text-zinc-400",
@@ -132,6 +132,7 @@ const TOOLS = [
   { name: "Insomnia", color: "bg-purple-500" },
   { name: "GitHub", color: "bg-zinc-100" },
   { name: "TypeScript", color: "bg-amber-500" },
+  { name: "Chrome Extension APIs", color: "bg-emerald-500" },
 ];
 
 export default function AboutPage() {
@@ -169,15 +170,15 @@ export default function AboutPage() {
 
             <div className="space-y-4 text-sm leading-relaxed text-zinc-500">
               <p>
-                I'm a Full Stack Developer with 2 years of professional
+                I'm a Full Stack Developer with 3+ years of professional
                 experience turning ideas into production-ready web applications.
                 I've worked across startups and agencies, contributing to
-                everything from AI-powered platforms to Web3 dApps.
+                everything from AI-powered platforms, vector searches (RAG), and N8N workflow automations, to Web3 dApps.
               </p>
               <p>
                 My strength lies in owning features end-to-end — architecting
-                the backend, designing the database schema, and building the
-                frontend interface, all with a focus on performance and clean
+                the backend, designing database schemas (SQL/NoSQL/Vector), and building high-fidelity
+                frontend interfaces, all with a focus on performance, security, and clean
                 code.
               </p>
             </div>
@@ -196,8 +197,7 @@ export default function AboutPage() {
                   Currently at Petalnex
                 </h3>
                 <p className="mt-1 text-xs leading-relaxed text-zinc-500">
-                  Building a full HRMS system with MERN stack — modules for
-                  attendance, leaves, tasks, meetings and notifications.
+                  Building full-stack features across Next.js and Node.js MERN stack, developing an AI-powered RAG pipeline, and working on attendance and leave tracking workflows.
                 </p>
               </div>
             </div>

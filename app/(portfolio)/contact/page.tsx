@@ -74,8 +74,8 @@ const SUBJECT_OPTIONS = ["Full-time Role", "Freelance Project", "Collaboration",
 const CONTACT_INFO = [
   { label: "Phone", value: "+92 307 759 0177", icon: Phone, color: "bg-purple-500/10", iconColor: "text-purple-400" },
   { label: "Email", value: "ar.abdurrehman611@gmail.com", icon: Mail, color: "bg-orange-500/10", iconColor: "text-orange-400" },
-  { label: "LinkedIn", value: "linkedin.com/in/abdurrehman", icon: LinkedInIcon, color: "bg-blue-500/10", iconColor: "text-blue-400" },
-  { label: "GitHub", value: "github.com/abdurrehman", icon: GithubIcon, color: "bg-zinc-500/10", iconColor: "text-zinc-400" },
+  { label: "LinkedIn", value: "linkedin.com/in/abdur-rehman-273b271bb/", icon: LinkedInIcon, color: "bg-blue-500/10", iconColor: "text-blue-400" },
+  { label: "GitHub", value: "github.com/ArRehman000", icon: GithubIcon, color: "bg-zinc-500/10", iconColor: "text-zinc-400" },
 ];
 
 const SOCIAL_CARDS = [

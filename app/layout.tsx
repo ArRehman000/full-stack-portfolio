@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Abdur Rehman | Full Stack Developer",
+  title: "Abdur Rehman | Full-Stack Developer (MERN | RAG | LLM)",
   description:
-    "Full Stack Developer specializing in Next.js, Node.js, and AI integrations.",
+    "Full-Stack Software Engineer with 3+ years of experience designing and shipping MERN stack applications, RAG pipelines, and LLM integrations.",
 };
 
 export default function RootLayout({

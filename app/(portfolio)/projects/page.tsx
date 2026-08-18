@@ -55,7 +55,7 @@ export default function ProjectsPage() {
           <h2 className="mt-4 text-[34px] font-medium leading-tight text-[#f0eeff]">
             Featured <span className="text-purple-400">Projects</span>
           </h2>
-          <p className="mt-2 text-sm text-zinc-700">9 projects shipped across AI, Web3, SaaS and automation</p>
+          <p className="mt-2 text-sm text-zinc-700">10 projects shipped across AI, Web3, SaaS and automation</p>
         </header>
 
         {/* Filter Tabs */}

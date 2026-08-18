@@ -19,8 +19,8 @@ const fadeInUp: Variants = {
 };
 
 const STATS = [
-  { value: "2+", label: "Years experience" },
-  { value: "8+", label: "Projects shipped" },
+  { value: "3+", label: "Years experience" },
+  { value: "10+", label: "Projects shipped" },
   { value: "3", label: "Companies" },
 ];
 
@@ -29,7 +29,7 @@ const TECH_STACK = [
   "React",
   "Node.js",
   "MongoDB",
-  "Web3",
+  "Pinecone",
   "LangChain",
 ];
 
@@ -54,7 +54,7 @@ export default function Hero() {
           >
             <div className="h-[1px] w-8 bg-purple-500" />
             <span className="text-[10px] uppercase tracking-[0.3em] font-semibold text-purple-400">
-              Portfolio 2025
+              Portfolio 2026
             </span>
           </motion.div>
 
@@ -66,7 +66,7 @@ export default function Hero() {
             variants={fadeInUp}
             className="mt-8 text-5xl md:text-7xl font-medium tracking-tight text-[#f0eeff] leading-[1.1]"
           >
-            Building <span className="text-purple-400">digital</span> <br />
+            Building <span className="text-purple-400">intelligent</span> <br />
             experiences.
           </motion.h1>
 
@@ -78,7 +78,7 @@ export default function Hero() {
             variants={fadeInUp}
             className="mt-6 text-xs uppercase tracking-[0.2em] font-medium text-zinc-500"
           >
-            Full Stack Developer &bull; 2 Years
+            Full-Stack Developer &bull; MERN | RAG | LLM &bull; 3+ Years
           </motion.p>
 
           {/* Description */}
@@ -89,9 +89,7 @@ export default function Hero() {
             variants={fadeInUp}
             className="mt-6 max-w-md text-sm leading-relaxed text-zinc-500/90"
           >
-            Crafting scalable web applications from pixel-perfect UIs to robust
-            backend systems. Specializing in React, Next.js, Node.js and modern
-            cloud infrastructure.
+            Designing and shipping scalable backend services and production-grade AI applications on the MERN stack. Expert in building RAG pipelines, LLM copilots, vector databases, and workflow automation.
           </motion.p>
 
           {/* Stats */}
@@ -201,7 +199,7 @@ export default function Hero() {
               <p className="text-[10px] text-zinc-500 font-bold uppercase tracking-widest">
                 Experience
               </p>
-              <p className="text-xs font-semibold text-white">2+ Years</p>
+              <p className="text-xs font-semibold text-white">3+ Years</p>
             </div>
           </motion.div>
         </motion.div>
