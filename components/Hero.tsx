@@ -150,8 +150,8 @@ export default function Hero() {
             </Link>
 
             <a
-              href="/Abdur-FullStack-Resume.pdf"
-              download="Abdur-FullStack-Resume.pdf"
+              href="/Abdur_Rehman_Resume_1.pdf"
+              download="Abdur_Rehman_Resume_1.pdf"
               className="flex items-center gap-2 rounded-xl border border-white/10 bg-transparent px-6 py-3.5 text-sm font-semibold text-zinc-400 transition-all hover:border-white/20 hover:text-white hover:bg-white/5"
             >
               Download CV
